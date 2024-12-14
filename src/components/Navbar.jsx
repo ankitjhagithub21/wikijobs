@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="shadow-xl bg-white fixed top-0 w-full z-10">
+    <header className="shadow-xl bg-white fixed top-0 w-full z-50">
       <div className="container mx-auto flex flex-wrap p-5 flex-row items-center justify-between">
         <div className="flex items-center justify-between w-full md:w-auto">
           <Link

@@ -1,7 +1,15 @@
 import { FaInfoCircle } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 
 const Job = ({ title, tags, applyLink ,salary}) => {
+  const navigate = useNavigate()
+  const data = {
+    title,
+    tags,
+    applyLink,
+    salary
+  }
   return (
     <div className="shadow-md rounded-xl p-5 job">
       <h1 className="mb-3 lg:text-xl text-base text-gray-800 font-semibold">{title} ₹{salary.max} - ₹{salary.min}</h1>
@@ -20,13 +28,13 @@ const Job = ({ title, tags, applyLink ,salary}) => {
           );
         })}
       </div>
-      <a
-        href={applyLink}
-        target="_blank"
+      <button
+        
+       onClick={()=>navigate("/job-details",{state:data})}
         className="bg-blue-500 text-sm text-white py-1.5 px-4 rounded-lg"
       >
         Apply Now
-      </a>
+      </button>
     </div>
   );
 };
