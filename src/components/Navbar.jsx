@@ -82,7 +82,7 @@ const Navbar = () => {
 
         <Link
           to={"/contact"}
-          className="md:inline-flex hidden items-center bg-yellow-600 border-0 py-1 px-6 focus:outline-none hover:bg-yellow-700 rounded text-white mt-4 md:mt-0"
+          className="md:inline-flex hidden items-center bg-[#DD6824] border-0 py-1 px-4 focus:outline-none hover:bg-yellow-700 rounded text-white mt-4 md:mt-0"
         >
           CONTACT US
         </Link>
