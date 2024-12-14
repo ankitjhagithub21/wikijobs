@@ -6,11 +6,11 @@ const Job = ({ title, tags, applyLink ,salary}) => {
     <div className="shadow-md rounded-xl p-5 job">
       <h1 className="mb-3 lg:text-xl text-base text-gray-800 font-semibold">{title} ₹{salary.max} - ₹{salary.min}</h1>
 
-      <div className="flex flex-wrap gap-3 mb-5">
+      <div className="flex flex-wrap gap-1.5 lg:gap-2 mb-5">
         {tags.map((tag, index) => {
           return (
             <div
-              className="px-4 py-1 flex items-center gap-1 rounded-lg md:text-sm text-xs shadow-lg text-blue-500 bg-[#E0F6F6]"
+              className="px-2 py-1 flex items-center gap-1 rounded-lg md:text-sm tag shadow-lg text-blue-500 bg-[#E0F6F6]"
               key={index}
             >
               <FaInfoCircle color="#2BB792"/>
