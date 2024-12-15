@@ -16,8 +16,8 @@ const Navbar = () => {
             to={"/"}
             className="flex title-font font-medium items-center text-gray-900"
           >
-            <img src="./vite.svg" alt="logo" className="h-8 w-8" />
-            <span className="ml-3 text-xl">Wiki Jobs</span>
+            <img src="./logo.png" alt="logo" width={140} />
+           
           </Link>
           <button
             onClick={toggleMenu}
@@ -78,6 +78,7 @@ const Navbar = () => {
           >
             PRIVACY POLICY
           </Link>
+          
           
         </nav>
 
