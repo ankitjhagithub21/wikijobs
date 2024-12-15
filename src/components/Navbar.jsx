@@ -56,7 +56,7 @@ const Navbar = () => {
         >
           <Link
             to={"/"}
-            className="mr-5 text-gray-600 m-2 hover:text-gray-900 block md:inline"
+            className="mr-5 text-gray-600 m-2 hover:bg-dark hover:text-gray-900 block md:inline"
           >
             SEARCH JOBS
           </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
 
         <Link
           to={"/contact"}
-          className="md:inline-flex hidden items-center bg-[#DD6824] border-0 py-1 px-4 focus:outline-none hover:bg-yellow-700 rounded text-white mt-4 md:mt-0"
+          className="md:inline-flex hidden items-center bg-[#281BCB] border-0 py-1 px-4 focus:outline-none hover:bg-blue-900 rounded text-white mt-4 md:mt-0"
         >
           CONTACT US
         </Link>

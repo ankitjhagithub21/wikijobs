@@ -9,14 +9,14 @@
 }
 .job:hover{
 transform: scale(1.02);
-border-left: 5px solid orange;
+border-left: 5px solid #281BCB;
 }
 
 .loader {
   width: 48px;
   height: 48px;
   border: 5px solid;
-  border-color: #FF3D00 transparent;
+  border-color: #281BCB transparent;
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;

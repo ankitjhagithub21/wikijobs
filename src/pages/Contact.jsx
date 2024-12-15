@@ -88,7 +88,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="bg-orange-600 rounded hover:bg-orange-700 text-white p-2 w-full mt-5 text-sm"
+            className="bg-[#281BCB] rounded hover:bg-blue-600 text-white p-2 w-full mt-5 text-sm"
           >
             SUBMIT
           </button>

@@ -18,10 +18,10 @@ const Job = ({ title, tags, applyLink ,salary}) => {
         {tags.map((tag, index) => {
           return (
             <div
-              className="px-2 py-1 flex items-center gap-1 rounded-lg md:text-sm tag shadow-lg text-blue-500 bg-[#E0F6F6]"
+              className="px-2 py-1 flex items-center gap-1 rounded-lg md:text-sm tag shadow-lg text-blue bg-[#E0F6F6]"
               key={index}
             >
-              <FaInfoCircle color="#2BB792"/>
+              <FaInfoCircle color="#281BCB"/>
 
               {tag}
             </div>
@@ -31,7 +31,7 @@ const Job = ({ title, tags, applyLink ,salary}) => {
       <button
         
        onClick={()=>navigate("/job-details",{state:data})}
-        className="bg-blue-500 text-sm text-white py-1.5 px-4 rounded-lg"
+        className="bg-[#281BCB] text-sm text-white py-1.5 px-4 rounded-lg"
       >
         Apply Now
       </button>
