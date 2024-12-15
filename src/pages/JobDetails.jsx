@@ -12,7 +12,7 @@ const JobDetails = () => {
           <div>
             <img
               alt="home"
-              src="https://moneyquizx.online/job/fresherjob.in/assets/resources/assets/img/emp-2.jpg"
+              src="./home.jpg"
               width={100}
               height={100}
             />

@@ -78,6 +78,7 @@ const Navbar = () => {
           >
             PRIVACY POLICY
           </Link>
+          
         </nav>
 
         <Link

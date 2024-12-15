@@ -11,7 +11,13 @@ const Jobs = ({jobs,loading}) => {
      <div className='max-w-5xl w-full mx-auto flex flex-col gap-4'>
         {
             jobs.map((job,index)=>{
-                return <Job key={index} title={job.title} tags={job.job_type} applyLink={job.referal_link} salary={job.salary}/>
+                return (
+                    <>
+                   {
+                     job && <Job key={index} title={job.title} tags={job.job_type} applyLink={job.referal_link} salary={job.salary}/>
+                   }
+                    </>
+                )
             })
         }
         </div>

@@ -12,7 +12,7 @@ const Job = ({ title, tags, applyLink ,salary}) => {
   }
   return (
     <div className="shadow-md rounded-xl p-5 job">
-      <h1 className="mb-3 lg:text-xl text-base text-gray-800 font-semibold">{title} ₹{salary.max} - ₹{salary.min}</h1>
+      <h1 className="mb-3 lg:text-xl text-base text-gray-800 font-semibold">{title} ₹{salary.min} -  ₹{salary.max}</h1>
 
       <div className="flex flex-wrap gap-1.5 lg:gap-2 mb-5">
         {tags.map((tag, index) => {
